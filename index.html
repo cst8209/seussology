@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seussology</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="container">
+    <h1>Seussology</h1>
+  </header>
+  <search class="container">
+    <form id="form">
+      <input id="search" type="search" class="form-control" placeholder="Search...">
+    </form>
+  </search>
+  <main class="container">
+    <div id="books" class="books">
+      <div class="book">
+        <input type="checkbox" class="bookmark" checked>
+        <h2 class="book-title">And to Think That I Saw It on Mulberry Street (1937)</h2> 
+        <button class="view-quotes btn btn-primary">View Quotes</button>
+      </div>
+      <div class="book">
+        <input type="checkbox" class="bookmark">
+        <h2 class="book-title">The 500 Hats of Bartholomew Cubbins (1938)</h2> 
+        <button class="view-quotes btn btn-primary">View Quotes</button>
+      </div>
+    </div>
+  </main>
+  <dialog id="dialog" class="dialog">
+    <button id="close" type="button" class="btn btn-close" aria-label="Close">&times;</button>
+    <h2 id="title">And to Think That I Saw It on Mulberry Street (1937)</h2>
+    <ol id="quotes" class="quotes">
+      <li>Stop telling such outlandish tales. Stop turning minnows into whales.</li>
+      <li>For I had a story that no one could beat! And to think that I saw it on Mulberry Street!</li>
+    </ol>
+  </dialog>
+</body>
+</html>
